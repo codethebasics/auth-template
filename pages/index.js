@@ -1,48 +1,13 @@
-import Head from "next/head";
-import Image from "next/image";
+import styles from "/styles/LoginPage.module.scss";
 
 export default function Home() {
   return (
-    <>
-      <div>Inicio</div>
-      <div>Auth template</div>
-      <div>Auth template</div>
-      <div>Auth template</div>
-      <div>Auth template</div>
-      <div>Auth template</div>
-      <div>Auth template</div>
-      <div>Auth template</div>
-      <div>Auth template</div>
-      <div>Auth template</div>
-      <div>Auth template</div>
-      <div>Auth template</div>
-      <div>Auth template</div>
-      <div>Auth template</div>
-      <div>Auth template</div>
-      <div>Auth template</div>
-      <div>Auth template</div>
-      <div>Auth template</div>
-      <div>Auth template</div>
-      <div>Auth template</div>
-      <div>Auth template</div>
-      <div>Auth template</div>
-      <div>Auth template</div>
-      <div>Auth template</div>
-      <div>Auth template</div>
-      <div>Auth template</div>
-      <div>Auth template</div>
-      <div>Auth template</div>
-      <div>Auth template</div>
-      <div>Auth template</div>
-      <div>Auth template</div>
-      <div>Auth template</div>
-      <div>Auth template</div>
-      <div>Auth template</div>
-      <div>Auth template</div>
-      <div>Auth template</div>
-      <div>Auth template</div>
-      <div>Auth template</div>
-      <div>Fim</div>
-    </>
+    <div className={styles.loginForm}>
+      <label>Login</label>
+      <input name="username" />
+      <label>Password</label>
+      <input name="password" />
+      <button>Login</button>
+    </div>
   );
 }
