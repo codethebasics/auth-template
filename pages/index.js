@@ -4,7 +4,45 @@ import Image from "next/image";
 export default function Home() {
   return (
     <>
-      <h1>Auth Template</h1>
+      <div>Inicio</div>
+      <div>Auth template</div>
+      <div>Auth template</div>
+      <div>Auth template</div>
+      <div>Auth template</div>
+      <div>Auth template</div>
+      <div>Auth template</div>
+      <div>Auth template</div>
+      <div>Auth template</div>
+      <div>Auth template</div>
+      <div>Auth template</div>
+      <div>Auth template</div>
+      <div>Auth template</div>
+      <div>Auth template</div>
+      <div>Auth template</div>
+      <div>Auth template</div>
+      <div>Auth template</div>
+      <div>Auth template</div>
+      <div>Auth template</div>
+      <div>Auth template</div>
+      <div>Auth template</div>
+      <div>Auth template</div>
+      <div>Auth template</div>
+      <div>Auth template</div>
+      <div>Auth template</div>
+      <div>Auth template</div>
+      <div>Auth template</div>
+      <div>Auth template</div>
+      <div>Auth template</div>
+      <div>Auth template</div>
+      <div>Auth template</div>
+      <div>Auth template</div>
+      <div>Auth template</div>
+      <div>Auth template</div>
+      <div>Auth template</div>
+      <div>Auth template</div>
+      <div>Auth template</div>
+      <div>Auth template</div>
+      <div>Fim</div>
     </>
   );
 }
