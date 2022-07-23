@@ -1,9 +1,18 @@
+@import "vars.scss";
+
 .footer {
-    background: #222;
-    color: #fff;
     padding: 10px;
     position: fixed;
     bottom: 0;
     left: 0;
     width: 100%;
+    text-align: center;
+
+    .lightTheme {
+        color: $light-text-color-2;
+    }
+
+    .darkTheme {
+        color: $dark-text-color;
+    }    
 }

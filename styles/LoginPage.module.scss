@@ -1,3 +1,5 @@
+@import 'vars.scss';
+
 .loginForm {
     display: flex;
     flex-direction: column;
@@ -7,17 +9,54 @@
     padding: 15px;
 
     h1 {
-        align-self: center;
         margin: 15px 0;
+        text-align: center;
     }
 
     input {
-        padding: 5px;
-        margin-bottom: 15px;
+        width: 100%;
     }
 
     button {
-        margin-top: 15px;
-        padding: 10px;
+        margin: 15px 0;
+        background-color: #D2D2D2;
+        color: #222;
+        font-size: 0.9rem;
+        text-transform: uppercase;
+    }
+
+    .logoWrapper {
+        text-align: center;
+    }
+
+    .inputWrapper {
+        background: $dark-bg-color;
+        padding: 0;
+        display: flex;
+        align-items: stretch;
+        border-radius: 4px;
+        margin: 10px 0;
+        
+        input {
+            border-radius: 4px 0 0 4px;
+            
+            
+            &:focus {
+                background: $dark-bg-color-3;            
+                
+                ~span {
+                    background: $dark-bg-color-3;                                              
+                }
+            }
+        }
+    
+        span {
+            border-radius: 0 4px 4px 0;
+            background: $dark-bg-color-2;
+            padding: 0 15px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
     }
 }
